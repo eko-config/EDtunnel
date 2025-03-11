@@ -1,11 +1,15 @@
-name = "eko-config"
+name = "admin"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
 
+[[routes]]
+pattern = "eko-config.web.id"
+custom_domain = true
+
 [vars]
-PROXYIP = "35.219.50.99:443"
-UUID = "dc91327c-f5a9-433d-8df0-5ef6b39f2cfa"
+PROXYIP = "178.128.80.43:443"
+UUID = "8cfcb714-564a-4687-9cfc-4baf2af1abd9"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
